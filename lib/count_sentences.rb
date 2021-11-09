@@ -3,10 +3,12 @@ require 'pry'
 class String
 
   def sentence?
+    sentence_ends_with?(".")
     
   end
 
   def question?
+    
 
   end
 
